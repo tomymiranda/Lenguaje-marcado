@@ -1,0 +1,35 @@
+*{
+    margin: 0; padding: 0;
+}
+.letra{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+.image{
+    width: 80rem;
+    height: 50rem;
+    border: solid black 2px;
+}
+
+.nocheEstrellada{
+    padding: 0rem 2rem;
+}
+.textFoto{
+    padding: 0rem 2rem;
+}
+.venus{
+    margin: 0rem 2rem;
+}
+.tituloCentrado{
+    width: 24rem;
+    margin: auto;
+    text-align: center;
+}
+.borderTop{
+    border-top: 2px solid black;
+}
+.borderBottom{
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+}

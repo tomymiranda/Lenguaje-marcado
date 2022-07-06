@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Contacto Tienda Sony</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="cssParaParcial.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,300;1,400;1,900&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark colorNav">
+            <section id="header" class="full">
+                <header class="full">
+                    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark colorNav">
+                        <div class="container-fluid">
+                           
+                                <a class="navbar-brand" href="#">
+                                  <!--aca va imagen de logo-->
+                                  <img class="espIzquLogo" src="https://res.cloudinary.com/tm98/image/upload/c_scale,w_152/v1656951736/taller/parcial%202/kindpng_119499_lirid2.png" class="positionImg" alt="">
+                                </a>
+                            
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                <a class=" colorLetrasNav nav-link " href="tiendaSonyParcial2TomasMiranda.html">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                <!--aca va opcion 1-->
+                                <a class="nav-link colorLetrasNav" href="nosotros.html">Nosotros</a>
+                              </li>
+                              <li class="nav-item">
+                                <!--aca va opcion 2-->
+                                <a class="nav-link colorLetrasNav" href="#">Productos</a>
+                              </li>
+                              <li class="nav-item">
+                                <!--aca va opcion 3-->
+                                <a class="nav-link colorLetrasNav" href="contacto.html">Contacto</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="container-fluid">
+                          <form class="d-flex positionSearch">
+                            <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
+                            <button class="btn btn-primary" type="submit">Buscar</button>
+                          </form>
+                        </div>
+                      </nav>
+                </header>
+            </section>
+        </nav>
+        <!--div principal-->
+        <div class="container-fluid">
+          <main class="espacioContactoPag">
+            <article>
+                <div class="centro espacioArribaDeTitle espacioAbajoDeTitle ">
+                    <h1>
+                    Contacto por correo electrónico
+                    </h1>
+                </div>
+                <div class="espacioDeArribaSubtitle espacioDeAbajoSubtitle borderDecorativoBajo">
+                    <h3>
+                        Complete el formulario a continuación para enviar su pregunta a nuestro equipo de servicio al cliente.
+                    </h3>
+                </div>
+                <div class="espacioFormulario">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="nombre" class="form-label">Nombre</label>
+                          <input type="text" class="form-control" id="nombre">
+                                  <!--<input type="email" class="form-control" id="nombre"-->
+                        </div>
+                        <div class="col-md-6">
+                          <label for="apellido" class="form-label">Apellido</label>
+                          <input type="password" class="form-control" id="apellido">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="num" class="form-label">Teléfono(Solo números):</label>
+                          <input type="text" class="form-control" id="num">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputState" class="form-label">Tema de consulta</label>
+                            <select id="inputState" class="form-select">
+                              <option selected>Seleccione...</option>
+                              <option>Anular compra realizada</option>
+                              <option>Cambiar mi producto</option>
+                              <option>Estado de mi pedido</option>
+                              <option>Solicitud de facturación</option>
+                              <option>Otro</option>
+                            </select>
+                          </div>                        
+                        <div class="col-12">
+                            <label for="motivo" class="form-label">Motivo detallado de la consulta</label>
+                            <textarea class="form-control" id="motivo" rows="3"></textarea>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="aceptoServicios">
+                            <label class="form-check-label" for="aceptoServicios">
+                              Acepto los términos de servicio 
+                            </label>
+                          </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Enviar consulta</button>
+                        </div>
+                      </form>
+                </div>
+            </article>
+          </main>
+        </div>
+        <!--aca va el footer-->
+        <section id="footer" class="">
+          <footer class="text-center text-lg-start bg-light text-muted footer colorFooter">
+              <section class="footer espacioArriba">
+              <div class="container text-center text-md-start mt-5 footer">
+                  <div class="row mt-3 footer">
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <h6 class="text-uppercase fw-bold mb-4 espacioArribaTitlesFooter">
+                        <!--aca va el titulo de footer-->
+                      <i class="fas fa-gem me-3"></i>Sony Industries
+                      </h6>
+                      <!--aca va descripcion de titulo-->
+                      <p>
+                        La marca lider mundial en ventas de productos electronicos
+                      </p>
+                  </div>
+                  
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!--aca va algo q se quiera ofrecer-->
+                      <h6 class="text-uppercase fw-bold mb-4 espacioArribaTitlesFooter">
+                      Compra online
+                      </h6>
+                      <p>
+                        <a href="#!" class="text-reset">Tienda en Línea</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset">Centro de ayuda</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset">Política de cambios y devoluciones</a>
+                      </p>
+                      <p>
+                        <a href="#!" class="text-reset">Dirección General de Defensa y Protección al Consumidor</a>
+                      </p>
+                  </div>
+                  
+                  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                      <h6 class="text-uppercase fw-bold mb-4 espacioArribaTitlesFooter">
+                        Comunidad
+                      </h6>
+                      <p>
+                      <a href="#!" class="text-reset">Comunidad Alpha</a>
+                      </p>
+                      <p>
+                      <a href="#!" class="text-reset">Ayuda con Mi Producto
+                      </a>
+                      </p>
+                      <p>
+                      <a href="#!" class="text-reset">Blog Oficial</a>
+                      </p>
+                      <p>
+                      <a href="#!" class="text-reset">Contacto</a>
+                      </p>
+                  </div>
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                      <h6 class="text-uppercase fw-bold mb-4 espacioArribaTitlesFooter">
+                      Medios de pago
+                      </h6>
+                      <div class="espacioEntreLogosTarjetas">
+                        <img class="posImgLogoTarjetas"src="https://res.cloudinary.com/tm98/image/upload/v1656963459/taller/parcial%202/visaGris2_lmmlct.png">
+                        Visa
+                      </div>
+                      <div class="espacioEntreLogosTarjetas"> 
+                        <img class="posImgLogoTarjetas" src="https://res.cloudinary.com/tm98/image/upload/v1656963732/taller/parcial%202/american-express_kamybj.png">
+                          American express
+                      </div>
+                      <div class="espacioEntreLogosTarjetas">
+                        <img class="posImgLogoTarjetas" src="https://res.cloudinary.com/tm98/image/upload/v1656963936/taller/parcial%202/maestro_txz9up.png">
+                        Mastercard/Maestro
+                      </div>
+                      <div>
+                        <img class="espacioEntreLogosTarjetas" src="https://res.cloudinary.com/tm98/image/upload/v1656964071/taller/parcial%202/dinners-club_iclef3.png">
+                        Diners Club
+                      </div>
+                  </div>
+                  </div>
+              </div>
+              </section>
+              <div class="text-center p-4">
+                <p>
+                  © 2021 SONY LATIN AMERICA, INC. TODOS LOS DERECHOS RESERVADOS.
+                  
+                </p>
+
+                  <p>
+                    Política de Privacidad en Línea de Sony Latin America, Inc © 2020 Sony Latin America, Inc. Todos los Derechos Reservados.
+
+Sony Argentina S.A | Domicilio Legal Av. Corrientes 345, C1043AAD CABA / Domicilio Comercial Av. Del Libertador 350, Piso 10, B1638BEP, Vicente López, B.A., CUIT 30-67992887-9 | EMAIL: SonyStoreOnline.SAR@am.sony.com | TELÉFONO: 0800 199 7669
+                  </p>
+              </div>
+        </section>
+    <!--aca va funcion de bootstrap-->    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>        
+    </body>

@@ -1,0 +1,61 @@
+.inline{
+    display: inline;
+}
+.block{
+    display: block;
+}
+.inline-flex{
+    display: inline-flex;
+    width: 100%;
+}
+.contHam{
+    padding: 8px;
+    margin: 8px;
+}
+.padding{
+    padding: 8px;
+}
+.border{
+    border: 1px solid #000;
+}
+.tituloHam{
+    font-weight: bold;
+    color: #000;
+    margin: auto;
+    text-align: center;
+}
+#lakers{
+    font-size: larger;
+    font-weight: bold;
+}
+#bur{
+    font-size: x-large;
+    font-weight: bold;
+}
+li{
+    display: inline;
+    vertical-align: middle;
+}
+.disTop{
+    display: inline;
+    vertical-align: top;
+}
+.titleSectionPosition{
+    position: sticky;
+    top: 0;
+}
+.imgHam{
+    float: left;
+}
+.imgLogo{
+    position: fixed;
+    right: 2rem;
+    top: 0.5rem;
+}
+.colorHeader{
+    background-color: #552583;
+    color: #FDB927;
+}
+.colorGeneral{
+    background-color:#FDB927 ;
+}

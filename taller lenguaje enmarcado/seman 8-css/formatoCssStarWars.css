@@ -1,0 +1,39 @@
+ .imperioFondo{
+    background-color: red;
+ }
+ .rebeldesFondo{
+     background-color: royalblue;
+ }
+ #imperio{
+    font-size: large;
+ }
+ #rebelde{
+     font-style: italic;
+ }
+ .bordeParaVader{
+    border: double;
+    border-color:black;
+ }
+ .bordeParaLuke{
+      border:double;
+      border-color:gold;
+ }
+ .espacioDeLetraSoldados{
+     letter-spacing: 3px;
+ }
+ .centrado{
+    text-align: center;
+ }
+ .enMayuscula{
+    text-transform: uppercase;
+ }
+ .titulo{
+      font-size: xx-large;
+      text-align: center;
+      background-color: black;
+      color: gold;
+ }
+ img{
+       width: 400px;
+       height: 240px;
+ }

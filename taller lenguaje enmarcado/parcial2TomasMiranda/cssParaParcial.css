@@ -1,0 +1,132 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h6{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.espacioArribaDeTitle{
+    padding-top: 2rem;
+}
+.espacioAbajoDeTitle{
+    padding-bottom: 2rem;
+}
+.espacioDeArribaSubtitle{
+    padding-top: 1rem;
+}
+.espacioDeAbajoSubtitle{
+    padding-bottom: 1rem;
+}
+.colorNav{
+    background-color: #000 !important;
+}
+.centro{
+    margin: auto;
+    text-align: center;
+}
+.espacioArriba{
+    margin-top: 2rem;
+}
+.border{
+    border: 1px solid #000;
+}
+.full{
+    width: 100%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.colorLetrasNav{
+    color:#fff !important;
+}
+.colorLetrasNav:hover{
+    color:#5bc0de !important;
+}
+.espIzquLogo{
+    margin-left: 0.8rem;
+}
+.positionSearch{
+    padding-right: 0.8rem;
+}
+.positionImg{
+    align-self: center;
+}
+.espacioArribaTitlesFooter{
+    margin-top: 2rem;
+}
+.colorFooter{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
+    color:#fff !important;
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+    cursor: pointer;
+    
+}
+.espacioContactoPag{
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.borderDecorativoBajo{
+    border-bottom-color: lightgrey;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.espacioFormulario{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.posImgLogoTarjetas{
+    vertical-align: middle;
+}
+.espacioEntreLogosTarjetas{
+    padding-bottom: 0.5rem;
+}
+.tituloBanner{
+    text-align: center;
+}
+
+.espacioEntreMargenesDerechoEIzquierdo{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media only screen and(min-width: 768px) and (max-widt:1023px){
+    .position{
+        align-self: center;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px){
+    
+    .posicionContenedorTextoEnBanner{
+        position: absolute;
+        top:50%;
+        transform: translateY(-50%);
+        height: 100%;
+    }
+    .tituloBanner{
+        text-align: start;
+        padding-top: 1.5rem;
+        padding-left: 8rem;
+        font-size: 2.5rem;
+        
+    }
+    .espacioDeContendorTitulo{
+        display: flex;
+        width: 32rem;
+        height: 16rem;
+        margin: auto;
+    }
+    .tituloFuerte{
+        font-weight: bold;
+    }
+    .tituloFotoBanner2{
+        color: ghostwhite;
+    }
+}

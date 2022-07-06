@@ -1,0 +1,73 @@
+
+table {
+    border: gainsboro 1px solid;
+    border-collapse: collapse;
+  }
+.texto{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    }
+.subTitulos{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bolder;
+}
+
+#personaje{
+    font-style: oblique;
+}
+.textoNormal{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    
+}
+.contenedorimagen{
+    width:400px; 
+    height:560px;
+    
+}
+
+body {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 100px;
+  }
+  
+  div, img, footer {
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  
+  h1 {
+    font-size: 36pt;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24pt;
+  }
+  
+  h3 {
+    font-size: 18pt;
+  }
+  
+  h4 {
+    font-size: 16pt;
+  }
+  
+  h5 {
+    font-size: 14pt;
+  }
+  #lista{
+    list-style-image: url(https://res.cloudinary.com/tm98/image/upload/c_scale,w_16/v1653348906/communityIcon_8w5ipx6edet51_ufueas.jpg);
+  }

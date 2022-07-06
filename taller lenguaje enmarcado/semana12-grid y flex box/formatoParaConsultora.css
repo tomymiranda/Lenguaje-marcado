@@ -1,0 +1,88 @@
+.inline{
+    display: inline;
+}
+.block{
+    display: block;
+}
+.inline-flex{
+    display: inline-flex;
+    width: 100%;
+}
+.contHam{
+    padding: 8px;
+    margin: 8px;
+}
+.padding{
+    padding: 8px;
+}
+.border{
+    border: 1px solid #000;
+}
+.titulo{
+    font-weight: bold;
+    color: #2cbba3;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.descripcion{
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+.centro{
+    margin: auto;
+    text-align: center;
+}
+.espacioEntreAmbos{
+    justify-self: space-between;
+
+}
+.espacioArriba{
+    margin-top: 2rem;
+}
+.texIzq{
+    text-align: left;
+}
+#lakers{
+    font-size: larger;
+    font-weight: bold;
+}
+#bur{
+    font-size: x-large;
+    font-weight: bold;
+}
+li{
+    display: inline;
+    vertical-align: middle;
+}
+.disTop{
+    display: inline;
+    vertical-align: top;
+}
+.titleSectionPosition{
+    position: sticky;
+    top: 0;
+}
+.colorGeneral{
+    background-color: #ebebeb 
+}
+.fondoCliente{
+    background-color: white;  
+}
+img{
+    border-radius: 10px;
+}
+.espacioLateral{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.footer{
+    background-color: #047c6c;
+    color: white;
+    
+}
